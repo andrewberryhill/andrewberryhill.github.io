@@ -28,5 +28,5 @@ The included GitHub Actions workflow builds, tests, and publishes the site autom
 The expected public address is:
 
 ```text
-https://andrewberryhill.github.io/academic-website/
+https://andrewberryhill.github.io/
 ```

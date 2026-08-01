@@ -4,17 +4,16 @@ import "./globals.css";
 const title = "Dr. Andrew Berryhill | Economist";
 const description =
   "Andrew Berryhill is an Assistant Professor of Economics at Rocky Mountain College whose research focuses on political economy, public finance, and national fiscal rules.";
-const publicSite = "https://andrewberryhill.github.io/academic-website";
-const assetBase = process.env.NODE_ENV === "production" ? "/academic-website" : "";
+const publicSite = "https://andrewberryhill.github.io";
 
 export const metadata: Metadata = {
   metadataBase: new URL(publicSite),
   title,
   description,
   icons: {
-    icon: `${assetBase}/favicon.png`,
-    shortcut: `${assetBase}/favicon.png`,
-    apple: `${assetBase}/favicon.png`,
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
   },
   openGraph: {
     title,

@@ -28,12 +28,12 @@ test("every internal link and image target in the exported pages resolves", () =
     const targets = [...html.matchAll(/(?:href|src)="([^"]+)"/g)].map((match) => match[1]);
 
     for (const target of targets) {
-      if (!target.startsWith("/academic-website/")) continue;
+      if (!target.startsWith("/") || target.startsWith("//")) continue;
 
-      const withoutBase = target.slice("/academic-website/".length).split(/[?#]/, 1)[0];
-      const candidate = withoutBase.endsWith("/")
-        ? join(output, withoutBase, "index.html")
-        : join(output, withoutBase || "index.html");
+      const rootRelative = target.slice(1).split(/[?#]/, 1)[0];
+      const candidate = rootRelative.endsWith("/")
+        ? join(output, rootRelative, "index.html")
+        : join(output, rootRelative || "index.html");
 
       assert.ok(existsSync(candidate), `${relativePath} contains a broken target: ${target}`);
     }
