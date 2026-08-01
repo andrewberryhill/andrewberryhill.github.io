@@ -115,7 +115,7 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
   letter-spacing: -.02em;
   line-height: 1.1;
 }
-.welcome h1 { font-size: 36px; }
+.welcome h1, .compact-page .page-heading h1, .bio-page .page-heading h1 { font-size: 36px; }
 .welcome-copy { padding-top: 5px; }
 .title-rule { width: 58px; height: 3px; margin: 20px 0 28px; background: var(--gold); }
 .welcome-copy > p:not(.contact-line) { max-width: 680px; margin: 0 0 15px; color: #3f474f; font-size: 18px; }
@@ -150,7 +150,7 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
 
 .compact-page { padding-top: 35px; }
 .compact-page .page-heading { display: grid; grid-template-columns: 180px 1fr; gap: 38px; align-items: start; max-width: none; margin-bottom: 27px; padding-bottom: 25px; border-bottom: 1px solid var(--line); }
-.compact-page .page-heading h1 { margin: 0; font-size: 36px; }
+.compact-page .page-heading h1 { margin: 0; }
 .compact-page .page-heading > p { max-width: 690px; font-size: 16px; line-height: 1.6; }
 
 .research-page .standalone-list { border-top: 0; }
@@ -202,7 +202,7 @@ footer { padding: 48px 0; background: var(--navy-dark); color: #e8edf2; }
   .site-header nav a { display: flex; align-items: center; min-height: 46px; padding: 8px 0 12px; font-size: 14px; }
   .welcome { grid-template-columns: 1fr; gap: 52px; padding: 56px 0 70px; }
   .portrait-frame { width: min(100%, 350px); margin: 0 auto; }
-  .welcome h1 { font-size: 34px; }
+  .welcome h1, .compact-page .page-heading h1, .bio-page .page-heading h1 { font-size: 34px; }
   .welcome-actions { grid-template-columns: 1fr; width: 100%; }
   .inner-page { padding: 58px 0 78px; }
   .bio-layout { grid-template-columns: 1fr; gap: 42px; }
