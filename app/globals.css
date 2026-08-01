@@ -141,7 +141,8 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
 .quote-grid blockquote p { margin: 0 0 16px; color: var(--navy-dark); font-family: var(--font-serif), Georgia, serif; font-size: 18px; line-height: 1.55; }
 .quote-grid cite { color: var(--muted); font-size: 12px; font-style: normal; }
 
-.bio-page .page-heading { margin-bottom: 38px; }
+.bio-page { min-height: 0; padding-top: 36px; padding-bottom: 64px; }
+.bio-page .page-heading { margin-bottom: 26px; }
 .bio-layout { display: grid; grid-template-columns: 1fr 250px; gap: 70px; align-items: start; }
 .bio-copy p { margin: 0 0 20px; color: #404a54; font-size: 17px; line-height: 1.8; }
 .bio-cv-link { display: inline-block; margin-top: 10px; font-weight: 600; }
@@ -205,6 +206,7 @@ footer { padding: 48px 0; background: var(--navy-dark); color: #e8edf2; }
   .welcome h1, .compact-page .page-heading h1, .bio-page .page-heading h1 { font-size: 34px; }
   .welcome-actions { grid-template-columns: 1fr; width: 100%; }
   .inner-page { padding: 58px 0 78px; }
+  .bio-page { padding: 36px 0 58px; }
   .bio-layout { grid-template-columns: 1fr; gap: 42px; }
   .bio-portrait { width: min(100%, 280px); }
   .compact-page .page-heading { grid-template-columns: 1fr; gap: 10px; }
