@@ -27,9 +27,6 @@ export default function ShortBioPage() {
             <p>
               A former collegiate golfer, Andrew continues to enjoy the game and coaches a local high school team. He also enjoys cooking, perusing used book stores, and spending time with his family.
             </p>
-            <a className="bio-cv-link" href={sitePath("/andrew-berryhill-cv.pdf")} target="_blank" rel="noreferrer">
-              View curriculum vitae <span aria-hidden="true">&rarr;</span>
-            </a>
           </div>
           <div className="bio-portrait">
             <img src={sitePath("/andrew-berryhill.jpg")} alt="Andrew Berryhill" width="1280" height="2048" />

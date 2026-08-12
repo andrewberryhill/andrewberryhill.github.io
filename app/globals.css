@@ -132,7 +132,7 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
 .welcome-copy > p:not(.contact-line) { max-width: 700px; margin: 0 0 13px; color: #3f474f; font-size: 21px; line-height: 1.6; }
 .welcome-copy > p.research-lead { color: var(--navy-dark); font-family: inherit; font-size: 21px; line-height: 1.6; }
 .welcome-actions { display: grid; grid-template-columns: repeat(2, minmax(145px, 1fr)); gap: 9px; max-width: 440px; margin-top: 20px; }
-.welcome-actions a { display: flex; align-items: center; justify-content: center; min-height: 44px; padding: 8px 15px; background: var(--navy); color: #fff; font-size: 14px; font-weight: 600; text-align: center; }
+.welcome-actions a { display: flex; align-items: center; justify-content: center; min-height: 48px; padding: 9px 16px; background: var(--navy); color: #fff; font-size: 17px; font-weight: 600; text-align: center; }
 .welcome-actions a:hover { background: var(--navy-dark); text-decoration: none; }
 .contact-line { margin: 13px 0 0; color: var(--ink); font-size: 19px; }
 .contact-line a { font-weight: 600; }
@@ -155,9 +155,8 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
 
 .bio-page { min-height: 0; padding-top: 36px; padding-bottom: 64px; }
 .bio-page .page-heading { margin-bottom: 26px; }
-.bio-layout { display: grid; grid-template-columns: 1fr 250px; gap: 70px; align-items: start; }
-.bio-copy p { margin: 0 0 20px; color: #404a54; font-size: 17px; line-height: 1.8; }
-.bio-cv-link { display: inline-block; margin-top: 10px; font-weight: 600; }
+.bio-layout { display: grid; grid-template-columns: 1fr 310px; gap: 58px; align-items: start; }
+.bio-copy p { margin: 0 0 22px; color: #404a54; font-size: 20px; line-height: 1.75; }
 .bio-portrait { padding: 8px; border: 1px solid var(--line); box-shadow: 0 10px 28px rgba(24, 40, 61, .09); }
 .bio-portrait img { display: block; width: 100%; height: auto; }
 
@@ -229,7 +228,7 @@ footer { padding: 48px 0; background: var(--navy-dark); color: #e8edf2; }
   .inner-page { padding: 58px 0 78px; }
   .bio-page { padding: 36px 0 58px; }
   .bio-layout { grid-template-columns: 1fr; gap: 42px; }
-  .bio-portrait { width: min(100%, 280px); }
+  .bio-portrait { width: min(100%, 340px); }
   .compact-page .page-heading { grid-template-columns: 1fr; gap: 10px; }
   .footer-inner { align-items: flex-start; flex-direction: column; }
   .footer-links { flex-direction: column; gap: 10px; }
