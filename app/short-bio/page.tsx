@@ -3,8 +3,8 @@ import { SiteFooter, SiteHeader } from "../site-chrome";
 import { sitePath } from "../site-paths";
 
 export const metadata: Metadata = {
-  title: "Short Bio | Dr. Andrew Berryhill",
-  description: "A short professional and personal biography of economist Andrew Berryhill.",
+  title: "About | Andrew Berryhill",
+  description: "About economist Andrew Berryhill.",
 };
 
 export default function ShortBioPage() {
@@ -13,7 +13,7 @@ export default function ShortBioPage() {
       <SiteHeader current="short-bio" />
       <div className="inner-page bio-page">
         <header className="page-heading">
-          <h1>Short Bio</h1>
+          <h1>About</h1>
         </header>
 
         <div className="bio-layout">
@@ -32,7 +32,7 @@ export default function ShortBioPage() {
             </a>
           </div>
           <div className="bio-portrait">
-            <img src={sitePath("/andrew-berryhill.jpg")} alt="Dr. Andrew Berryhill" width="1280" height="2048" />
+            <img src={sitePath("/andrew-berryhill.jpg")} alt="Andrew Berryhill" width="1280" height="2048" />
           </div>
         </div>
       </div>

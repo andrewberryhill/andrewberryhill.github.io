@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-const title = "Dr. Andrew Berryhill | Economist";
+const title = "Andrew Berryhill | Economist";
 const description =
   "Andrew Berryhill is an Assistant Professor of Economics at Rocky Mountain College whose research focuses on political economy, public finance, and national fiscal rules.";
 const publicSite = "https://andrewberryhill.github.io";
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
         url: `${publicSite}/og.png`,
         width: 1536,
         height: 1024,
-        alt: "Dr. Andrew Berryhill, Economist",
+        alt: "Andrew Berryhill, Economist",
       },
     ],
   },

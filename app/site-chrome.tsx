@@ -6,12 +6,15 @@ export function SiteHeader({ current }: { current: PageName }) {
   return (
     <header className="site-header">
       <div className="header-inner">
-        <a className="site-title" href={sitePath("/")}>Dr. Andrew Berryhill</a>
+        <div className="site-identity">
+          <a className="site-title" href={sitePath("/")}>Andrew Berryhill</a>
+          <span>Assistant Professor &bull; Business Department &bull; Rocky Mountain College</span>
+        </div>
         <nav aria-label="Main navigation">
           <a className={current === "home" ? "active" : ""} href={sitePath("/")}>Home</a>
           <a className={current === "research" ? "active" : ""} href={sitePath("/research")}>Research</a>
           <a className={current === "teaching" ? "active" : ""} href={sitePath("/teaching")}>Teaching</a>
-          <a className={current === "short-bio" ? "active" : ""} href={sitePath("/short-bio")}>Short Bio</a>
+          <a className={current === "short-bio" ? "active" : ""} href={sitePath("/short-bio")}>About</a>
           <a href={sitePath("/andrew-berryhill-cv.pdf")} target="_blank" rel="noreferrer">CV</a>
         </nav>
       </div>
@@ -24,7 +27,7 @@ export function SiteFooter() {
     <footer>
       <div className="footer-inner">
         <div>
-          <strong>Dr. Andrew Berryhill</strong>
+          <strong>Andrew Berryhill</strong>
           <span>Assistant Professor of Economics</span>
           <span>Rocky Mountain College</span>
         </div>
@@ -32,7 +35,7 @@ export function SiteFooter() {
           <a href="mailto:andrew.berryhill@rocky.edu">Email</a>
           <a href={sitePath("/research")}>Research</a>
           <a href={sitePath("/teaching")}>Teaching</a>
-          <a href={sitePath("/short-bio")}>Short Bio</a>
+          <a href={sitePath("/short-bio")}>About</a>
           <a href={sitePath("/andrew-berryhill-cv.pdf")} target="_blank" rel="noreferrer">Curriculum Vitae</a>
         </div>
       </div>

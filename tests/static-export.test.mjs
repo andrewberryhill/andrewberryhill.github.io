@@ -17,7 +17,7 @@ test("all requested pages and public assets are exported", () => {
     assert.ok(existsSync(join(output, relativePath)), `${relativePath} was not exported`);
   }
 
-  for (const asset of ["andrew-berryhill.jpg", "andrew-berryhill-cv.pdf", "favicon.png", "og.png", ".nojekyll"]) {
+  for (const asset of ["andrew-berryhill.jpg", "andrew-berryhill-cv.pdf", "edrc-paper-slides.pdf", "weak-fiscal-rules-slides.pdf", "favicon.png", "og.png", ".nojekyll"]) {
     assert.ok(existsSync(join(output, asset)), `${asset} is missing from the export`);
   }
 });
