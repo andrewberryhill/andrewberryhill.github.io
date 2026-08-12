@@ -93,12 +93,11 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
 
 .page-shell { width: min(1120px, calc(100% - 48px)); margin: 0 auto; }
 .welcome {
-  min-height: 590px;
   display: grid;
   grid-template-columns: 340px 1fr;
   align-items: start;
-  gap: clamp(60px, 8vw, 118px);
-  padding: 40px 0 58px;
+  gap: clamp(44px, 6vw, 76px);
+  padding: 28px 0 38px;
 }
 .portrait-frame {
   position: relative;
@@ -130,12 +129,12 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
 .welcome h1, .compact-page .page-heading h1, .bio-page .page-heading h1 { font-size: 36px; }
 .welcome-copy { padding-top: 5px; }
 .title-rule { width: 58px; height: 3px; margin: 20px 0 28px; background: var(--gold); }
-.welcome-copy > p:not(.contact-line) { max-width: 680px; margin: 0 0 15px; color: #3f474f; font-size: 18px; }
-.welcome-copy > p.research-lead { color: var(--navy-dark); font-family: inherit; font-size: 18px; line-height: 1.7; }
-.welcome-actions { display: grid; grid-template-columns: repeat(2, minmax(145px, 1fr)); gap: 10px; max-width: 440px; margin-top: 27px; }
+.welcome-copy > p:not(.contact-line) { max-width: 700px; margin: 0 0 13px; color: #3f474f; font-size: 21px; line-height: 1.6; }
+.welcome-copy > p.research-lead { color: var(--navy-dark); font-family: inherit; font-size: 21px; line-height: 1.6; }
+.welcome-actions { display: grid; grid-template-columns: repeat(2, minmax(145px, 1fr)); gap: 9px; max-width: 440px; margin-top: 20px; }
 .welcome-actions a { display: flex; align-items: center; justify-content: center; min-height: 44px; padding: 8px 15px; background: var(--navy); color: #fff; font-size: 14px; font-weight: 600; text-align: center; }
 .welcome-actions a:hover { background: var(--navy-dark); text-decoration: none; }
-.contact-line { margin: 17px 0 0; color: var(--ink); font-size: 18px; }
+.contact-line { margin: 13px 0 0; color: var(--ink); font-size: 19px; }
 .contact-line a { font-weight: 600; }
 
 .inner-page { width: min(940px, calc(100% - 48px)); min-height: 660px; margin: 0 auto; padding: 78px 0 104px; }
@@ -168,6 +167,7 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
 .compact-page .page-heading > p { max-width: 690px; font-size: 16px; line-height: 1.6; }
 
 .research-sections { display: grid; gap: 34px; }
+.research-page { padding-top: 28px; }
 .research-section > h2 { margin: 0; padding-bottom: 8px; border-bottom: 2px solid var(--navy); color: var(--navy-dark); font-family: var(--font-serif), Georgia, serif; font-size: 24px; }
 .research-page .standalone-list { border-top: 0; }
 .research-page .standalone-item { padding: 20px 0 22px; }
@@ -209,7 +209,7 @@ footer { padding: 48px 0; background: var(--navy-dark); color: #e8edf2; }
 .footer-links a { color: #e8edf2; font-size: 13px; }
 
 @media (max-width: 800px) {
-  .welcome { grid-template-columns: 285px 1fr; gap: 44px; }
+  .welcome { grid-template-columns: 285px 1fr; gap: 34px; }
   .portrait-frame { width: 275px; }
   .quote-grid, .teaching-page .quote-grid { grid-template-columns: 1fr; }
   .course-grid { grid-template-columns: 1fr; }
@@ -221,7 +221,7 @@ footer { padding: 48px 0; background: var(--navy-dark); color: #e8edf2; }
   .home-header .site-title { font-size: 29px; }
   .site-header nav { width: 100%; justify-content: space-between; gap: 12px; }
   .site-header nav a { display: flex; align-items: center; min-height: 46px; padding: 8px 0 12px; font-size: 14px; }
-  .welcome { grid-template-columns: 1fr; gap: 52px; padding: 56px 0 70px; }
+  .welcome { grid-template-columns: 1fr; gap: 34px; padding: 32px 0 46px; }
   .portrait-frame { width: min(100%, 380px); margin: 0 auto; }
   .welcome h1, .compact-page .page-heading h1, .bio-page .page-heading h1 { font-size: 34px; }
   .welcome-actions { grid-template-columns: 1fr; width: 100%; }
