@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { SiteFooter, SiteHeader } from "../site-chrome";
 
 export const metadata: Metadata = {
-  title: "Teaching | Dr. Andrew Berryhill",
+  title: "Teaching | Andrew Berryhill",
   description: "Teaching experience and course information for economist Andrew Berryhill.",
 };
 

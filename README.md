@@ -1,4 +1,4 @@
-# Dr. Andrew Berryhill — Academic Website
+# Andrew Berryhill — Academic Website
 
 This repository contains the source for Andrew Berryhill's personal academic website. It reproduces the current ChatGPT-hosted site and is configured to publish as a static GitHub Pages website.
 
@@ -7,7 +7,7 @@ This repository contains the source for Andrew Berryhill's personal academic web
 - Home
 - Research
 - Teaching
-- Short Bio
+- About
 - Curriculum Vitae (PDF)
 
 ## Previewing locally

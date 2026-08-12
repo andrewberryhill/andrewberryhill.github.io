@@ -24,7 +24,7 @@ export default function Home() {
             </p>
             <p>I ask why politicians would adopt constraints on their own future choices and what determines whether those constraints bind. I do theory as well as applied work.</p>
             <p>I have three main lines of research:</p>
-            <ol className="research-lines" type="i">
+            <ol className="research-lines">
               <li>the design and adoption of fiscal rules and their escape clauses,</li>
               <li>the political origins of budget and tax institutions, and</li>
               <li>institutions, policy, and fiscal outcomes under crisis.</li>

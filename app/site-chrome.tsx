@@ -6,10 +6,7 @@ export function SiteHeader({ current }: { current: PageName }) {
   return (
     <header className="site-header">
       <div className="header-inner">
-        <div className="site-identity">
-          <a className="site-title" href={sitePath("/")}>Andrew Berryhill</a>
-          <span>Assistant Professor &bull; Business Department &bull; Rocky Mountain College</span>
-        </div>
+        <a className="site-title" href={sitePath("/")}>Andrew Berryhill</a>
         <nav aria-label="Main navigation">
           <a className={current === "home" ? "active" : ""} href={sitePath("/")}>Home</a>
           <a className={current === "research" ? "active" : ""} href={sitePath("/research")}>Research</a>
