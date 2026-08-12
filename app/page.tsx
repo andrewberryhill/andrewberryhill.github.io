@@ -20,7 +20,7 @@ export default function Home() {
           <div className="welcome-copy">
             <h1 id="research-overview-heading" className="sr-only">Research overview</h1>
             <p className="research-lead">
-              My research centers on Political Economy, Public Finance, and Macroeconomics, focusing on fiscal rules and how political incentives affect their design, adoption, and effectiveness.
+              My research centers on Political Economy and Public Finance. I primarily study fiscal rules and how political incentives shape their design, adoption, and effectiveness.
             </p>
             <p>
               I am an Assistant Professor of Economics at Rocky Mountain College. I received my PhD in Economics from Indiana University in 2025.
