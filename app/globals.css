@@ -83,7 +83,7 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
   padding: 34px 0 30px;
   color: #394756;
   border-bottom: 3px solid transparent;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
   letter-spacing: .02em;
   white-space: nowrap;
@@ -95,9 +95,9 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
 .welcome {
   display: grid;
   grid-template-columns: 340px 1fr;
-  align-items: start;
+  align-items: center;
   gap: clamp(44px, 6vw, 76px);
-  padding: 28px 0 38px;
+  padding: 24px 0 28px;
 }
 .portrait-frame {
   position: relative;
@@ -131,9 +131,6 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
 .title-rule { width: 58px; height: 3px; margin: 20px 0 28px; background: var(--gold); }
 .welcome-copy > p:not(.contact-line) { max-width: 700px; margin: 0 0 13px; color: #3f474f; font-size: 21px; line-height: 1.6; }
 .welcome-copy > p.research-lead { color: var(--navy-dark); font-family: inherit; font-size: 21px; line-height: 1.6; }
-.welcome-actions { display: grid; grid-template-columns: repeat(2, minmax(145px, 1fr)); gap: 9px; max-width: 440px; margin-top: 20px; }
-.welcome-actions a { display: flex; align-items: center; justify-content: center; min-height: 48px; padding: 9px 16px; background: var(--navy); color: #fff; font-size: 17px; font-weight: 600; text-align: center; }
-.welcome-actions a:hover { background: var(--navy-dark); text-decoration: none; }
 .contact-line { margin: 13px 0 0; color: var(--ink); font-size: 19px; }
 .contact-line a { font-weight: 600; }
 
@@ -220,11 +217,10 @@ footer { padding: 48px 0; background: var(--navy-dark); color: #e8edf2; }
   .site-title { font-size: 24px; }
   .home-header .site-title { font-size: 29px; }
   .site-header nav { width: 100%; justify-content: space-between; gap: 12px; }
-  .site-header nav a { display: flex; align-items: center; min-height: 46px; padding: 8px 0 12px; font-size: 14px; }
-  .welcome { grid-template-columns: 1fr; gap: 34px; padding: 32px 0 46px; }
+  .site-header nav a { display: flex; align-items: center; min-height: 46px; padding: 8px 0 12px; font-size: 16px; }
+  .welcome { grid-template-columns: 1fr; align-items: start; gap: 34px; padding: 32px 0 40px; }
   .portrait-frame { width: min(100%, 380px); margin: 0 auto; }
   .welcome h1, .compact-page .page-heading h1, .bio-page .page-heading h1 { font-size: 34px; }
-  .welcome-actions { grid-template-columns: 1fr; width: 100%; }
   .inner-page { padding: 58px 0 78px; }
   .bio-page { padding: 36px 0 58px; }
   .bio-layout { grid-template-columns: 1fr; gap: 42px; }

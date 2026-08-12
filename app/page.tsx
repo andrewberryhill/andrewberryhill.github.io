@@ -28,12 +28,6 @@ export default function Home() {
             <p>
               My primary fields are Political Economy and Public Finance, and my secondary fields are Macroeconomics and International Economics.
             </p>
-            <div className="welcome-actions">
-              <a href={sitePath("/research")}>View Research</a>
-              <a href={sitePath("/andrew-berryhill-cv.pdf")} target="_blank" rel="noreferrer">View CV</a>
-              <a href={sitePath("/teaching")}>View Teaching</a>
-              <a href={sitePath("/short-bio")}>View About</a>
-            </div>
             <p className="contact-line">
               Email: <a href="mailto:andrew.berryhill@rocky.edu">andrew.berryhill@rocky.edu</a>
             </p>
