@@ -22,13 +22,9 @@ export default function Home() {
             <p className="research-lead">
               My research centers on Political Economy, Public Finance, and Macroeconomics, focusing on fiscal rules and how political incentives affect their design, adoption, and effectiveness.
             </p>
-            <p>I ask why politicians would adopt constraints on their own future choices and what determines whether those constraints bind. I do theory as well as applied work.</p>
-            <p>I have three main lines of research:</p>
-            <ol className="research-lines">
-              <li>the design and adoption of fiscal rules and their escape clauses,</li>
-              <li>the political origins of budget and tax institutions, and</li>
-              <li>institutions, policy, and fiscal outcomes under crisis.</li>
-            </ol>
+            <p>
+              I am an Assistant Professor of Economics at Rocky Mountain College. I received my PhD in Economics from Indiana University in 2025.
+            </p>
             <div className="welcome-actions">
               <a href={sitePath("/research")}>View Research</a>
               <a href={sitePath("/andrew-berryhill-cv.pdf")} target="_blank" rel="noreferrer">View CV</a>
@@ -37,9 +33,6 @@ export default function Home() {
             </div>
             <p className="contact-line">
               Email: <a href="mailto:andrew.berryhill@rocky.edu">andrew.berryhill@rocky.edu</a>
-            </p>
-            <p className="home-affiliation">
-              I am an Assistant Professor of Economics at Rocky Mountain College. I received my PhD in Economics from Indiana University in 2025.
             </p>
           </div>
         </section>

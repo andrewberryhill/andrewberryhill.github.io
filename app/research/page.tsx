@@ -79,6 +79,14 @@ const researchSections = [
         slides: null,
         availability: null,
       },
+      {
+        title: "Fiscal Rules in Political Budget Cycle Models",
+        citation: null,
+        summary: null,
+        coauthors: null,
+        slides: null,
+        availability: null,
+      },
     ],
   },
 ];

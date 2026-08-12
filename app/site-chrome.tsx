@@ -4,7 +4,7 @@ type PageName = "home" | "research" | "teaching" | "short-bio";
 
 export function SiteHeader({ current }: { current: PageName }) {
   return (
-    <header className="site-header">
+    <header className={`site-header ${current === "home" ? "home-header" : ""}`}>
       <div className="header-inner">
         <a className="site-title" href={sitePath("/")}>Andrew Berryhill</a>
         <nav aria-label="Main navigation">
