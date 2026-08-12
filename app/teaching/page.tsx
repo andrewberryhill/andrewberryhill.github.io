@@ -11,12 +11,7 @@ export default function TeachingPage() {
     <main>
       <SiteHeader current="teaching" />
       <div className="inner-page compact-page teaching-page">
-        <header className="page-heading">
-          <h1>Teaching</h1>
-          <p>
-            I teach undergraduate economics at Rocky Mountain College. Before joining Rocky, I taught in the Department of Economics at Indiana University.
-          </p>
-        </header>
+        <h1 className="sr-only">Teaching</h1>
 
         <section className="teaching-section" aria-label="Teaching experience">
           <div className="course-columns">
@@ -32,7 +27,7 @@ export default function TeachingPage() {
               </div>
             </section>
             <section className="course-group" aria-labelledby="indiana-courses">
-              <h3 id="indiana-courses">Indiana University</h3>
+              <h3 id="indiana-courses">Indiana University (As a PhD student)</h3>
               <div className="course-grid">
                 <div className="course-row"><strong>Fundamentals of Economics for Business II</strong></div>
                 <div className="course-row"><strong>Fundamentals of Economics for Business I</strong></div>

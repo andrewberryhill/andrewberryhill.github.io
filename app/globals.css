@@ -183,10 +183,11 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
 .course-columns { display: block; }
 .course-group { border-top: 2px solid var(--navy); }
 .course-group + .course-group { margin-top: 22px; }
-.course-group > h3 { margin: 0; padding: 9px 0 8px; color: var(--navy-dark); font-family: var(--font-serif), Georgia, serif; font-size: 18px; border-bottom: 1px solid var(--line); }
+.course-group > h3 { margin: 0; padding: 10px 0 9px; color: var(--navy-dark); font-family: var(--font-serif), Georgia, serif; font-size: 21px; border-bottom: 1px solid var(--line); }
 .course-grid { display: grid; grid-template-columns: 1fr 1fr; column-gap: 32px; }
-.course-row { display: block; padding: 7px 0; border-bottom: 1px solid #e8ebee; }
-.course-row strong { color: #33404c; font-size: 15px; font-weight: 600; line-height: 1.4; }
+.course-row { display: block; padding: 9px 0; border-bottom: 1px solid #e8ebee; }
+.course-row strong { color: #33404c; font-size: 18px; font-weight: 600; line-height: 1.45; }
+.teaching-page { padding-top: 28px; }
 .teaching-page .evaluations { margin-top: 32px; }
 .teaching-page .evaluations > h2 { margin-bottom: 12px; font-size: 22px; }
 .teaching-page .quote-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
