@@ -11,7 +11,12 @@ export default function TeachingPage() {
     <main>
       <SiteHeader current="teaching" />
       <div className="inner-page compact-page teaching-page">
-        <h1 className="sr-only">Teaching</h1>
+        <header className="page-heading">
+          <h1>Teaching</h1>
+          <p>
+            I teach undergraduate economics at Rocky Mountain College. Before joining Rocky, I taught in the Department of Economics at Indiana University.
+          </p>
+        </header>
 
         <section className="teaching-section" aria-label="Teaching experience">
           <div className="course-columns">

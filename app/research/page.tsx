@@ -96,7 +96,12 @@ export default function ResearchPage() {
     <main>
       <SiteHeader current="research" />
       <div className="inner-page compact-page research-page">
-        <h1 className="sr-only">Research</h1>
+        <header className="page-heading">
+          <h1>Research</h1>
+          <p>
+            My research focuses on national fiscal rules and how political incentives affect their design, implementation, and effectiveness.
+          </p>
+        </header>
 
         <div className="research-sections">
           {researchSections.map((section) => (
