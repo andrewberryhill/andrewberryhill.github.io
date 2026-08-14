@@ -18,13 +18,13 @@ export default function ShortBioPage() {
 
         <div className="bio-layout">
           <div className="bio-copy">
-            <h2>Professional bio</h2>
+            <h2>Professional Bio</h2>
             <p><em>For talks, conferences, and other introductions.</em></p>
             <p>
               Andrew Berryhill is an Assistant Professor of Economics at Rocky Mountain College in Billings, Montana. He received his PhD in Economics from Indiana University in 2025. His research examines the political economy of fiscal policy, particularly how political incentives shape the design and effectiveness of national fiscal rules. His work lies at the intersection of political economy, public finance, and macroeconomics.
             </p>
 
-            <h2>Beyond economics</h2>
+            <h2>Personal</h2>
             <p>
               Andrew grew up primarily in Houston and has lived throughout the South, Midwest, and West. He now lives in Billings with his wife, Christine, and their two sons.
             </p>
