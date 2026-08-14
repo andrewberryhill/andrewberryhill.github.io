@@ -18,14 +18,18 @@ export default function ShortBioPage() {
 
         <div className="bio-layout">
           <div className="bio-copy">
+            <h2>Professional bio</h2>
+            <p><em>For talks, conferences, and other introductions.</em></p>
             <p>
-              Andrew Berryhill is an Assistant Professor of Economics at Rocky Mountain College in Billings, Montana. He received his PhD in Economics from Indiana University in 2025. His research interests include political economy, public finance, macroeconomics, and international economics, with a particular focus on national fiscal rules.
+              Andrew Berryhill is an Assistant Professor of Economics at Rocky Mountain College in Billings, Montana. He received his PhD in Economics from Indiana University in 2025. His research examines the political economy of fiscal policy, particularly how political incentives shape the design and effectiveness of national fiscal rules. His work lies at the intersection of political economy, public finance, and macroeconomics.
+            </p>
+
+            <h2>Beyond economics</h2>
+            <p>
+              Andrew grew up primarily in Houston and has lived throughout the South, Midwest, and West. He now lives in Billings with his wife, Christine, and their two sons.
             </p>
             <p>
-              Andrew grew up primarily in Houston, Texas, and has also lived in Louisiana, Mississippi, California, Michigan, and Indiana. He now lives in Billings with his wife, Christine, and their two sons.
-            </p>
-            <p>
-              A former collegiate golfer, Andrew continues to enjoy the game and coaches a local high school team. He also enjoys cooking, perusing used book stores, and spending time with his family.
+              Golf remains an important part of Andrew&apos;s life. After competing collegiately, he now coaches a local high school team and continues to enjoy playing. Away from the course, he likes to cook, browse used bookstores, and spend time with his family.
             </p>
           </div>
           <div className="bio-portrait">
