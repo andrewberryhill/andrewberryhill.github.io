@@ -12,10 +12,6 @@ export default function ShortBioPage() {
     <main>
       <SiteHeader current="short-bio" />
       <div className="inner-page bio-page">
-        <header className="page-heading">
-          <h1>About</h1>
-        </header>
-
         <div className="bio-layout">
           <div className="bio-copy">
             <h2>Professional Bio</h2>

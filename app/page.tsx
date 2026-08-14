@@ -26,7 +26,7 @@ export default function Home() {
               My research focuses on national fiscal rules and how political incentives affect their design, implementation, and effectiveness.
             </p>
             <p>
-              My primary fields are Political Economy and Public Finance, and my secondary fields are Macroeconomics and International Economics.
+              My primary fields are Political Economy, Public Finance, and Macroeconomics.
             </p>
             <p className="contact-line">
               Email: <a href="mailto:andrew.berryhill@rocky.edu">andrew.berryhill@rocky.edu</a>
